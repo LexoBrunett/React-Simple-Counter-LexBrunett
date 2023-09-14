@@ -1,12 +1,25 @@
+.Card_container{
+	background-color: gray;
+    border-style: solid;
+    border-color: gray;
 
-/* 
+}
 
-    You can write your own styles here...
+.bigCounter{
+    background: black;
+    text-align: center;
+    /* margin:auto;
+    text-align: center; */
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
 
-*/
+}
+
+.bigCounter div{
+    display: inline-block;
+    font-size: 60px;
+    color:white;
+    background: black;
+    line-height: 120px;
+    height: 120x;
+    margin: 30px;
+}
